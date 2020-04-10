@@ -1,0 +1,117 @@
+body {
+    font-family: 'Oswald', sans-serif;   
+    background-position: center;
+    background-size: cover;
+    max-width: 500px;
+    margin: auto;
+    background-attachment: fixed;
+    background-image: url("./img.jpg./image-asset.jpeg")
+   
+}
+
+
+img {
+    border: 3px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px
+    
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+.flip-card-back {
+    background-color: transparent;
+    color: transparent;
+    transform: rotateY(180deg);
+    
+  }
+.flip-card-front {
+    background-color: transparent;
+    color:transparent;
+  }
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+.flip-card-inner {
+    position: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+.flip-card {
+    perspective: 1000px;
+    
+    height: 300px;
+    
+    background-color: transparent;
+    
+    width: 200px;
+    margin-left: 45px;
+    position: center
+    
+}
+
+#headers {
+    border-radius: 10px;
+    opacity: 90%;
+    text-align: center;
+    background-color: cadetblue;
+    border: 5px solid white
+   
+}
+
+p {
+    
+    border-radius: 10px;
+    opacity: 90%;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    background-color: cadetblue; 
+    border: 5px solid white
+    
+}
+
+ol {
+    
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cadetblue; 
+    padding-right: 20px;
+    opacity: 90% ;
+    border: 5px solid white
+    
+   
+}
+
+.link {
+  color: cadetblue;
+background-color: black;
+text-align: center;
+}
+
+nav {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: medium;
+  padding-left:90px
+  
+}
